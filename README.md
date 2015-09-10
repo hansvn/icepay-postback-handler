@@ -16,7 +16,7 @@ Example usage in routes:
 
 ```php
 Route::get('/', function() {
-    $ip = \Brandworks\Icepay\DBOrder::create(array());
+    $ip = \Hansvn\Icepay\DBOrder::create(array());
     $icepay = $ip->icepayObject;
     $icepay->setAmount(1000)
                 ->setCountry("BE")
